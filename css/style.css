@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 40px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-btn button {
+  width: 145px;
+  height: 58px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apple {
+  display: flex;
+  flex-direction: column;
+}
+
+.apple {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.apple h1 {
+  width: 450px;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.apple p {
+  width: 490px;
+}
+
+.apple button {
+  width: 160px;
+  height: 60px;
+  background-color: #263238;
+  color: antiquewhite;
+  border-radius: 6px;
+}
+
+.project img {
+  width: 500px;
+  height: 500px;
+}
+
+.osh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 50px;
+}
+
+.osh p {
+  width: 550px;
+}
+
+.Batken img {
+  width: 500px;
+  height: 500px;
+}
+
+.my-work {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.my-work button {
+  width: 160px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.apelsin {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 50px;
+}
+
+.ash h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.box {
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.box button {
+  width: 220px;
+  height: 35px;
+  border-radius: 8px;
+  color: black;
+  background-color: #eeeeee;
+  margin-top: 15px;
+}
+
+.box h1 {
+  font-size: 30px;
+  font-weight: 600;
+  width: 320px;
+}
+
+.box p {
+  width: 305px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8f95a5;
+}
+
+.box img {
+  width: 340px;
+  height: 340px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ash2 h2 {
+  margin-inline: auto;
+  font-size: 40px;
+  width: 124px;
+  font-weight: 800;
+  padding-block: 48px;
+}
+
+.kivi {
+  padding-block: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+.bot {
+  width: 435px;
+  height: 930px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.mini-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 435px;
+  height: 884px;
+}
+
+.mini-bot h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mini-bot p {
+  width: 347px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mini-bot button {
+  width: 230px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.mini-bot img {
+  width: 400px;
+  height: 400px;
+}
+
+.lee-mon {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.moon {
+  display: flex;
+  gap: 14px;
+}
+
+.mini-bot2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.bot2 {
+  width: 434px;
+  height: 485px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.mini-bot2 h1 {
+  width: 112px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mini-bot2 p {
+  width: 400px;
+}
+
+.mini-bot2 button {
+  width: 230px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.bot3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 432px;
+  height: 486px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.mini-bot3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  gap: 31px;
+}
+
+.mini-bot3 h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.mini-bot3 p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mini-bot3 button {
+  width: 230px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.bot4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #263238;
+  width: 885px;
+  height: 376px;
+  background-color: #f5f5f5;
+  padding-block: 20px;
+  border-radius: 10px;
+}
+
+.mini-bot4 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-left: 25px;
+}
+
+.mini-bot4 h1 {
+  width: 137px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mini-bot4 p {
+  width: 432px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.mini-bot4 button {
+  width: 230px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.madrid h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.madrid p {
+  font-size: 20px;
+  width: 605px;
+  font-weight: 400;
+}
+
+.madrid button {
+  width: 230px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
+
+.real {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.madrid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.new-work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 80px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.center h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.center p {
+  width: 470px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  gap: 7px;
+}
+
+input {
+  width: 450px;
+  height: 80px;
+  padding-left: 40px;
+  border-radius: 8px;
+}
+
+button {
+  width: 264px;
+  height: 80px;
+  border-radius: 6px;
+  background-color: #263238;
+  color: #fff;
+}
